@@ -1,0 +1,143 @@
+/* Reset Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout Básico da Página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #272727;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #ff6f00;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff6f00;
+    margin: 10px 0;
+}
+
+/* Menu de Abas */
+nav.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tablink {
+    background-color: #272727;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.tablink:hover {
+    background-color: #ff6f00;
+}
+
+.tablink.active {
+    background-color: #ff6f00;
+    color: #272727;
+}
+
+/* Conteúdo das Abas */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+#inicio {
+    display: block;
+}
+
+#inicio h2 {
+    font-size: 2.5rem;
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 10px 0;
+}
+
+#inicio h3 {
+    font-size: 2rem;
+    color: #ff6f00;
+    margin-top: 30px;
+}
+
+/* Gráfico de Seguidores */
+canvas {
+    max-width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    border: 1px solid #444;
+}
+
+/* Seção Postagem de Vídeos */
+#video-posts {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#video-posts h2 {
+    font-size: 2.5rem;
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+#video-posts h3 {
+    font-size: 2rem;
+    color: #ff6f00;
+    margin-top: 30px;
+}
+
+/* Seção de Contato */
+#contato {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5rem;
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #272727;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
